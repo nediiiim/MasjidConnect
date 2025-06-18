@@ -38,3 +38,7 @@ struct PrayerTimesView: View {
         }
     }
 }
+
+#Preview {
+    PrayerTimesView()
+}
