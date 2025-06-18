@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct PrayerTimesResponse: Codable {
     let data: PrayerData
@@ -25,8 +26,8 @@ struct Timings: Codable {
 }
 
 class PrayerTimesFetcher {
-    func fetchPrayerTimes(lat: Double, lon: Double, completion: @escaping (Timings?) -> Void) {
-        let urlString = "https://api.aladhan.com/v1/timings?latitude=\(lat)&longitude=\(lon)&method=2"
+    func fetchPrayerTimes(lat: Double, lon: Double, method: Int, school: Int, completion: @escaping (Timings?) -> Void) {
+        let urlString = "https://api.aladhan.com/v1/timings?latitude=\(lat)&longitude=\(lon)&method=\(method)&school=\(school)"
         guard let url = URL(string: urlString) else {
             completion(nil)
             return

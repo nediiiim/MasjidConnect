@@ -12,7 +12,23 @@ struct PrayerTimesView: View {
     @StateObject private var locationManager = LocationManager()
     @State private var prayerTimes: Timings?
     
+    @Binding var selectedMethod: Int
+    @Binding var selectedSchool: Int
+    
     let fetcher = PrayerTimesFetcher()
+    
+    func refetchPrayerTimes() {
+        guard let loc = locationManager.userLocation else {return}
+        fetcher.fetchPrayerTimes(
+            lat: loc.latitude,
+            lon: loc.longitude,
+            method: selectedMethod,
+            school: selectedSchool
+        ) { times in
+            prayerTimes = times
+        }
+    }
+    
     
     var body: some View {
         VStack {
@@ -33,10 +49,14 @@ struct PrayerTimesView: View {
                     }
                 }
                 .padding()
-                .onReceive(locationManager.$userLocation.compactMap { $0 }) { loc in
-                    fetcher.fetchPrayerTimes(lat: loc.latitude, lon: loc.longitude) { times in
-                        prayerTimes = times
-                    }
+                .onReceive(locationManager.$userLocation.compactMap { $0 }) { _ in
+                    refetchPrayerTimes()
+                }
+                .onChange(of: selectedMethod) {
+                    refetchPrayerTimes()
+                }
+                .onChange(of: selectedSchool) {
+                    refetchPrayerTimes()
                 }
                 
                 VStack(alignment: .leading, spacing:16) {
@@ -50,10 +70,18 @@ struct PrayerTimesView: View {
                 }
                 .padding()
             }
+            
+            Text("Calculation: \(CalculationMethod(rawValue: selectedMethod)?.displayName ?? "Unknown") (\(MadhabSchool(rawValue: selectedSchool)?.displayName ?? ""))")
+                .font(.footnote)
+                .foregroundColor(.gray)
+
         }
     }
 }
 
 #Preview {
-    PrayerTimesView()
+    PrayerTimesView(
+        selectedMethod: .constant(CalculationMethod.isna.rawValue),
+        selectedSchool: .constant(MadhabSchool.hanafi.rawValue)
+    )
 }
