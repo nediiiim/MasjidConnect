@@ -1,0 +1,20 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "95819e71079925f0f41423159996d2832238328278f051f96f20350c9997a04b"
+build_start_time: [1750341907, 201315000]
+build_end_time: [1750341907, 578228000]
+inputs:
+  ? "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Index.noindex/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1750341894, 560600108]
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Managers/LocationManager.swift": [1750260036, 720310879]
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/MasjidConnectApp.swift": [1750252568, 117854753]
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Models/PrayerSettings.swift": [1750271497, 839446315]
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Models/PrayerTimes.swift": [1750254183, 726164191]
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Networking/PrayerTimesFetcher.swift": [1750271930, 249806021]
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Services/PrayerTimeService.swift": [1750254211, 128231714]
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/AnnouncementsView.swift": [1750256299, 562212441]
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/ContentView.swift": [1750276760, 932762434]
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/PrayerTimesView.swift": [1750341566, 810194433]
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/QuranView.swift": [1750256329, 187156670]
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/Settings/MethodSelectionView.swift": [1750273997, 478682239]
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/Settings/SchoolSelectionView.swift": [1750273997, 465052216]
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/Settings/SettingsView.swift": [1750273997, 491102950]

@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Target 'MasjidConnectUITests' in project 'MasjidConnect' (no dependencies)
+Target 'MasjidConnectUITests' in project 'MasjidConnect'
+➜ Explicit dependency on target 'MasjidConnect' in project 'MasjidConnect'
+Target 'MasjidConnectUITests' in project 'MasjidConnect'
+➜ Explicit dependency on target 'MasjidConnect' in project 'MasjidConnect'
+Target 'MasjidConnectTests' in project 'MasjidConnect' (no dependencies)
+Target 'MasjidConnectTests' in project 'MasjidConnect'
+➜ Explicit dependency on target 'MasjidConnect' in project 'MasjidConnect'
+Target 'MasjidConnectTests' in project 'MasjidConnect'
+➜ Explicit dependency on target 'MasjidConnect' in project 'MasjidConnect'
+Target 'MasjidConnect' in project 'MasjidConnect' (no dependencies)
+Target 'MasjidConnect' in project 'MasjidConnect' (no dependencies)

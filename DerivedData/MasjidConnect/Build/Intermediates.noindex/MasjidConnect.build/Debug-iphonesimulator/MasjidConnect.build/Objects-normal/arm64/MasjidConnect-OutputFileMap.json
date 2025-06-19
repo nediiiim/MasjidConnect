@@ -1,0 +1,148 @@
+{
+  "" : {
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MasjidConnect-master.dia",
+    "emit-module-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MasjidConnect-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MasjidConnect-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MasjidConnect-master.swiftdeps"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Managers/LocationManager.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/LocationManager.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/LocationManager.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/LocationManager.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/LocationManager.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/LocationManager.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/LocationManager.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/LocationManager.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/LocationManager~partial.swiftmodule"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/MasjidConnectApp.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MasjidConnectApp.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MasjidConnectApp.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MasjidConnectApp.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MasjidConnectApp.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MasjidConnectApp.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MasjidConnectApp.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MasjidConnectApp.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MasjidConnectApp~partial.swiftmodule"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Models/PrayerSettings.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerSettings.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerSettings.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerSettings.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerSettings.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerSettings.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerSettings.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerSettings.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerSettings~partial.swiftmodule"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Models/PrayerTimes.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimes.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimes.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimes.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimes.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimes.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimes.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimes.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimes~partial.swiftmodule"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Networking/PrayerTimesFetcher.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesFetcher.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesFetcher.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesFetcher.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesFetcher.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesFetcher.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesFetcher.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesFetcher.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesFetcher~partial.swiftmodule"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Services/PrayerTimeService.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimeService.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimeService.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimeService.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimeService.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimeService.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimeService.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimeService.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimeService~partial.swiftmodule"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/AnnouncementsView.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/AnnouncementsView.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/AnnouncementsView.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/AnnouncementsView.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/AnnouncementsView.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/AnnouncementsView.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/AnnouncementsView.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/AnnouncementsView.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/AnnouncementsView~partial.swiftmodule"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/ContentView.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/PrayerTimesView.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesView.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesView.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesView.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesView.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesView.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesView.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesView.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/PrayerTimesView~partial.swiftmodule"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/QuranView.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/QuranView.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/QuranView.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/QuranView.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/QuranView.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/QuranView.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/QuranView.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/QuranView.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/QuranView~partial.swiftmodule"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/Settings/MethodSelectionView.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MethodSelectionView.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MethodSelectionView.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MethodSelectionView.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MethodSelectionView.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MethodSelectionView.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MethodSelectionView.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MethodSelectionView.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/MethodSelectionView~partial.swiftmodule"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/Settings/SchoolSelectionView.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SchoolSelectionView.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SchoolSelectionView.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SchoolSelectionView.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SchoolSelectionView.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SchoolSelectionView.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SchoolSelectionView.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SchoolSelectionView.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SchoolSelectionView~partial.swiftmodule"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/Settings/SettingsView.swift" : {
+    "const-values" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnect.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  }
+}

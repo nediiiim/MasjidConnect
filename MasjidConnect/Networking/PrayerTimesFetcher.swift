@@ -26,8 +26,14 @@ struct Timings: Codable {
 }
 
 class PrayerTimesFetcher {
-    func fetchPrayerTimes(lat: Double, lon: Double, method: Int, school: Int, completion: @escaping (Timings?) -> Void) {
-        let urlString = "https://api.aladhan.com/v1/timings?latitude=\(lat)&longitude=\(lon)&method=\(method)&school=\(school)"
+    func fetchPrayerTimes(
+        lat: Double,
+        lon: Double,
+        method: Int,
+        school: Int,
+        date: String,
+        completion: @escaping (Timings?) -> Void) {
+        let urlString = "https://api.aladhan.com/v1/timings/\(date)?latitude=\(lat)&longitude=\(lon)&method=\(method)&school=\(school)"
         guard let url = URL(string: urlString) else {
             completion(nil)
             return

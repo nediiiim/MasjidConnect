@@ -1,0 +1,54 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "353e08f486d7c2c2fc7bb906a1b3749d22f925dd252975cc0c0e9df0066233e0"
+    },
+    {
+      "guid" : "353e08f486d7c2c2fc7bb906a1b3749d2ee5c79a9bdf9e07a397ac47749ab4ef"
+    },
+    {
+      "guid" : "353e08f486d7c2c2fc7bb906a1b3749d8e6f8cf09ac5b4d9c1fdf0230f4f5b02"
+    }
+  ],
+  "containerPath" : "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Products",
+      "pchPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

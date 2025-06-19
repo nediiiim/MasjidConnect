@@ -1,0 +1,16 @@
+{
+  "source": "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/Settings/MethodSelectionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Select Method",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 30
+        }
+      }
+    ]
+  },
+  "version": 1
+}

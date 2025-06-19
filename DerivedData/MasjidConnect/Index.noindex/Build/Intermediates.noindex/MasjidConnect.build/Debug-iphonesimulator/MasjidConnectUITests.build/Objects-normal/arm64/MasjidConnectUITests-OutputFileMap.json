@@ -1,0 +1,15 @@
+{
+  "" : {
+    "dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Index.noindex/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnectUITests.build/Objects-normal/arm64/MasjidConnectUITests-master.d",
+    "diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Index.noindex/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnectUITests.build/Objects-normal/arm64/MasjidConnectUITests-master.dia",
+    "emit-module-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Index.noindex/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnectUITests.build/Objects-normal/arm64/MasjidConnectUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Index.noindex/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnectUITests.build/Objects-normal/arm64/MasjidConnectUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Index.noindex/Build/Intermediates.noindex/MasjidConnect.build/Debug-iphonesimulator/MasjidConnectUITests.build/Objects-normal/arm64/MasjidConnectUITests-master.swiftdeps"
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnectUITests/MasjidConnectUITests.swift" : {
+
+  },
+  "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnectUITests/MasjidConnectUITestsLaunchTests.swift" : {
+
+  }
+}

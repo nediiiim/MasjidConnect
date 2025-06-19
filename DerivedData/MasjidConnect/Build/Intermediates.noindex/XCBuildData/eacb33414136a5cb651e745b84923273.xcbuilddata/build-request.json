@@ -1,0 +1,66 @@
+{
+  "buildCommand" : {
+    "command" : "preview",
+    "style" : "xojit"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "353e08f486d7c2c2fc7bb906a1b3749d22f925dd252975cc0c0e9df0066233e0"
+    }
+  ],
+  "containerPath" : "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator18.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Products",
+      "derivedDataPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone17,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "18.3.1",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone17,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/nedimdelic/Desktop/MasjidConnect/DerivedData/MasjidConnect/Build/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "6DC7ECFA-F96A-431B-AEBF-A07A3374C1EB",
+          "TARGET_DEVICE_MODEL" : "iPhone17,1",
+          "TARGET_DEVICE_OS_VERSION" : "18.3.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

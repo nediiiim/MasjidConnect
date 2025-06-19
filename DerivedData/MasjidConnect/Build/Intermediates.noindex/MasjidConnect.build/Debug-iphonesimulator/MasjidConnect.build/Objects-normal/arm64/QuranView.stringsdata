@@ -1,0 +1,16 @@
+{
+  "source": "/Users/nedimdelic/Desktop/MasjidConnect/MasjidConnect/Views/QuranView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Quran reader and listener coming soon",
+        "location": {
+          "startingColumn": 14,
+          "startingLine": 12
+        }
+      }
+    ]
+  },
+  "version": 1
+}

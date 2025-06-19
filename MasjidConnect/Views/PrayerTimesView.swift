@@ -11,6 +11,8 @@ import CoreLocation
 struct PrayerTimesView: View {
     @StateObject private var locationManager = LocationManager()
     @State private var prayerTimes: Timings?
+    @State private var selectedDate: Date = Date()
+    @State private var locationName: String = "Loading Location..."
     
     @Binding var selectedMethod: Int
     @Binding var selectedSchool: Int
@@ -18,14 +20,23 @@ struct PrayerTimesView: View {
     let fetcher = PrayerTimesFetcher()
     
     func refetchPrayerTimes() {
-        guard let loc = locationManager.userLocation else {return}
+        guard let loc = locationManager.userLocation else {
+            print("Location not available")
+            return
+        }
+        
+        let dateString = formattedAPIDate(selectedDate)
+        
         fetcher.fetchPrayerTimes(
             lat: loc.latitude,
             lon: loc.longitude,
             method: selectedMethod,
-            school: selectedSchool
+            school: selectedSchool,
+            date: dateString
         ) { times in
-            prayerTimes = times
+            DispatchQueue.main.async {
+                prayerTimes = times
+            }
         }
     }
     
@@ -39,10 +50,96 @@ struct PrayerTimesView: View {
         return formatter.string(from: date)
     }
     
+    func formattedDate(_ date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .full
+        return formatter.string(from: date)
+    }
+    
+    func formattedAPIDate(_ date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd-MM-yyyy"
+        return formatter.string(from: date)
+    }
+    
+    func formattedHijriDate(_ date: Date) -> String {
+        let hijriCalendar = Calendar(identifier: .islamicCivil)
+        let formatter = DateFormatter()
+        formatter.calendar = hijriCalendar
+        formatter.dateFormat = "d MMMM yyyy"
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        return formatter.string(from: date)
+    }
+    
+    func fetchLocationName(from location: CLLocation) {
+        let geocoder = CLGeocoder()
+        geocoder.reverseGeocodeLocation(location) { placemarks, error in
+            if let placemark = placemarks?.first {
+                let city = placemark.locality ?? ""
+                let country = placemark.country ?? ""
+                DispatchQueue.main.async {
+                    if !city.isEmpty && !country.isEmpty {
+                        locationName = "\(city), \(country)"
+                    } else if !city.isEmpty {
+                        locationName = city
+                    } else if !country.isEmpty {
+                        locationName = country
+                    } else {
+                        locationName = "Unknown location"
+                    }
+                }
+            } else {
+                DispatchQueue.main.async {
+                    locationName = "Unable to get location"
+                }
+            }
+        }
+    }
     
     var body: some View {
-        VStack {
-            Text("Location Placeholder")
+        VStack(spacing: 15) {
+            HStack {
+                Spacer()
+                Image(systemName: "location.fill")
+                    .foregroundColor(.gray)
+                    .imageScale(.small)
+                Text(locationName)
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+            }
+            .padding(.trailing)
+            
+            HStack {
+                Button(action: {
+                    if let newDate = Calendar.current.date(byAdding: .day, value: -1, to: selectedDate) {
+                        selectedDate = newDate
+                    }
+                }) {
+                    Image(systemName: "chevron.left")
+                }
+                
+                Spacer()
+                
+                VStack(spacing: 2) {
+                    Text(formattedDate(selectedDate))
+                        .font(.headline)
+                    
+                    Text(formattedHijriDate(selectedDate))
+                        .font(.subheadline)
+                        .foregroundColor(.gray)
+                }
+                
+                Spacer()
+                
+                Button(action: {
+                    if let newDate = Calendar.current.date(byAdding: .day, value: 1, to: selectedDate) {
+                        selectedDate = newDate
+                    }
+                }) {
+                    Image(systemName: "chevron.right")
+                }
+            }
+            .padding(.horizontal)
             
             HStack {
                 VStack(alignment: .leading, spacing:16) {
@@ -70,8 +167,9 @@ struct PrayerTimesView: View {
                     }
                 }
                 .padding()
-                .onReceive(locationManager.$userLocation.compactMap { $0 }) { _ in
+                .onReceive(locationManager.$userLocation.compactMap { $0 }) { loc in
                     refetchPrayerTimes()
+                    fetchLocationName(from: CLLocation(latitude: loc.latitude, longitude: loc.longitude))
                 }
                 .onChange(of: selectedMethod) {
                     refetchPrayerTimes()
@@ -79,6 +177,10 @@ struct PrayerTimesView: View {
                 .onChange(of: selectedSchool) {
                     refetchPrayerTimes()
                 }
+                .onChange(of: selectedDate) {
+                    refetchPrayerTimes()
+                }
+                
                 
                 VStack(alignment: .leading, spacing:16) {
                     Text("BECCA Center")
