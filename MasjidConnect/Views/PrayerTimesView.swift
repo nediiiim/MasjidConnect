@@ -97,107 +97,121 @@ struct PrayerTimesView: View {
     }
     
     var body: some View {
-        VStack(spacing: 15) {
-            HStack {
-                Spacer()
-                Image(systemName: "location.fill")
-                    .foregroundColor(.gray)
-                    .imageScale(.small)
-                Text(locationName)
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
-            }
-            .padding(.trailing)
-            
-            HStack {
-                Button(action: {
-                    if let newDate = Calendar.current.date(byAdding: .day, value: -1, to: selectedDate) {
-                        selectedDate = newDate
-                    }
-                }) {
-                    Image(systemName: "chevron.left")
-                }
-                
-                Spacer()
-                
-                VStack(spacing: 2) {
-                    Text(formattedDate(selectedDate))
-                        .font(.headline)
-                    
-                    Text(formattedHijriDate(selectedDate))
-                        .font(.subheadline)
+        NavigationView {
+            VStack(spacing: 15) {
+                HStack {
+                    Spacer()
+                    Image(systemName: "location.fill")
                         .foregroundColor(.gray)
+                        .imageScale(.small)
+                    Text(locationName)
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
                 }
+                .padding(.trailing)
                 
-                Spacer()
-                
-                Button(action: {
-                    if let newDate = Calendar.current.date(byAdding: .day, value: 1, to: selectedDate) {
-                        selectedDate = newDate
+                HStack {
+                    Button(action: {
+                        if let newDate = Calendar.current.date(byAdding: .day, value: -1, to: selectedDate) {
+                            selectedDate = newDate
+                        }
+                    }) {
+                        Image(systemName: "chevron.left")
                     }
-                }) {
-                    Image(systemName: "chevron.right")
-                }
-            }
-            .padding(.horizontal)
-            
-            HStack {
-                VStack(alignment: .leading, spacing:16) {
-                    Text("")
-                    Text("Fajr")
-                    Text("Sunrise")
-                    Text("Dhuhr")
-                    Text("Asr")
-                    Text("Maghrib")
-                    Text("Isha")
-                }
-                .padding()
-                
-                VStack(alignment: .leading, spacing:16) {
-                    Text("Your Location")
-                    if let times = prayerTimes {
-                        Text("\(formatToAMPM(times.Fajr))")
-                        Text("\(formatToAMPM(times.Sunrise))")
-                        Text("\(formatToAMPM(times.Dhuhr))")
-                        Text("\(formatToAMPM(times.Asr))")
-                        Text("\(formatToAMPM(times.Maghrib))")
-                        Text("\(formatToAMPM(times.Isha))")
-                    } else {
-                        Text("Loading prayer times...")
+                    
+                    Spacer()
+                    
+                    VStack(spacing: 2) {
+                        Text(formattedDate(selectedDate))
+                            .font(.headline)
+                        
+                        Text(formattedHijriDate(selectedDate))
+                            .font(.subheadline)
+                            .foregroundColor(.gray)
+                    }
+                    
+                    Spacer()
+                    
+                    Button(action: {
+                        if let newDate = Calendar.current.date(byAdding: .day, value: 1, to: selectedDate) {
+                            selectedDate = newDate
+                        }
+                    }) {
+                        Image(systemName: "chevron.right")
                     }
                 }
-                .padding()
-                .onReceive(locationManager.$userLocation.compactMap { $0 }) { loc in
-                    refetchPrayerTimes()
-                    fetchLocationName(from: CLLocation(latitude: loc.latitude, longitude: loc.longitude))
-                }
-                .onChange(of: selectedMethod) {
-                    refetchPrayerTimes()
-                }
-                .onChange(of: selectedSchool) {
-                    refetchPrayerTimes()
-                }
-                .onChange(of: selectedDate) {
-                    refetchPrayerTimes()
+                .padding(.horizontal)
+                
+                HStack {
+                    VStack(alignment: .leading, spacing:16) {
+                        Text("")
+                        Text("Fajr")
+                        Text("Sunrise")
+                        Text("Dhuhr")
+                        Text("Asr")
+                        Text("Maghrib")
+                        Text("Isha")
+                    }
+                    .padding()
+                    
+                    VStack(alignment: .leading, spacing:16) {
+                        Text("Your Location")
+                        if let times = prayerTimes {
+                            Text("\(formatToAMPM(times.Fajr))")
+                            Text("\(formatToAMPM(times.Sunrise))")
+                            Text("\(formatToAMPM(times.Dhuhr))")
+                            Text("\(formatToAMPM(times.Asr))")
+                            Text("\(formatToAMPM(times.Maghrib))")
+                            Text("\(formatToAMPM(times.Isha))")
+                        } else {
+                            Text("Loading prayer times...")
+                        }
+                    }
+                    .padding()
+                    .onReceive(locationManager.$userLocation.compactMap { $0 }) { loc in
+                        refetchPrayerTimes()
+                        fetchLocationName(from: CLLocation(latitude: loc.latitude, longitude: loc.longitude))
+                    }
+                    .onChange(of: selectedMethod) {
+                        refetchPrayerTimes()
+                    }
+                    .onChange(of: selectedSchool) {
+                        refetchPrayerTimes()
+                    }
+                    .onChange(of: selectedDate) {
+                        refetchPrayerTimes()
+                    }
+                    
+                    
+                    VStack(alignment: .leading, spacing:16) {
+                        Text("BECCA Center")
+                        Text("4:15 AM")
+                        Text("5:50 AM")
+                        Text("12:55 PM")
+                        Text("6:07 PM")
+                        Text("8:35 PM")
+                        Text("10:11 PM")
+                    }
+                    .padding()
                 }
                 
+                Text("Calculation: \(CalculationMethod(rawValue: selectedMethod)?.displayName ?? "Unknown") (\(MadhabSchool(rawValue: selectedSchool)?.displayName ?? ""))")
+                    .font(.footnote)
+                    .foregroundColor(.gray)
                 
-                VStack(alignment: .leading, spacing:16) {
-                    Text("BECCA Center")
-                    Text("4:15 AM")
-                    Text("5:50 AM")
-                    Text("12:55 PM")
-                    Text("6:07 PM")
-                    Text("8:35 PM")
-                    Text("10:11 PM")
+                NavigationLink(destination: QiblaView()) {
+                    HStack {
+                        Image(systemName: "location.north.line")
+                        Text("Qibla Direction")
+                            .fontWeight(.medium)
+                    }
+                    .padding()
+                    .foregroundColor(.white)
+                    .background(Color.blue)
+                    .cornerRadius(10)
                 }
-                .padding()
+                .padding(.top, 16)
             }
-            
-            Text("Calculation: \(CalculationMethod(rawValue: selectedMethod)?.displayName ?? "Unknown") (\(MadhabSchool(rawValue: selectedSchool)?.displayName ?? ""))")
-                .font(.footnote)
-                .foregroundColor(.gray)
-
         }
     }
 }
